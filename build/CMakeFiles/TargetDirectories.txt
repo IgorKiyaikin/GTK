@@ -1,3 +1,0 @@
-/home/igor/CMake_tutorial/GTK/WidgetEntryDemo/build/CMakeFiles/rebuild_cache.dir
-/home/igor/CMake_tutorial/GTK/WidgetEntryDemo/build/CMakeFiles/edit_cache.dir
-/home/igor/CMake_tutorial/GTK/WidgetEntryDemo/build/CMakeFiles/WidgetEntryDemo.dir
