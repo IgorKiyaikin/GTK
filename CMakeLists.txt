@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.18)
+project(WidgetEntryDemo C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(WidgetEntryDemo
+        main.c)
+FIND_PACKAGE(PkgConfig REQUIRED)
+PKG_CHECK_MODULES(GTK3 REQUIRED gtk+-3.0)
+
+INCLUDE_DIRECTORIES(${GTK3_INCLUDE_DIRS})
+LINK_DIRECTORIES(${GTK3_LIBRARY_DIRS})
+
+TARGET_LINK_LIBRARIES(WidgetEntryDemo ${GTK3_LIBRARIES})
